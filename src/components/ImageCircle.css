@@ -1,0 +1,49 @@
+.image-circle-container {
+  position: relative;
+  width: 300px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+}
+
+.center-image {
+  position: absolute;
+  width: 100px; /* Adjust size */
+  height: 100px; /* Adjust size */
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.surrounding-image {
+  position: absolute;
+  width: 80px; /* Adjust size */
+  height: 80px; /* Adjust size */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.image-0 {
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.image-1 {
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+.image-2 {
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.image-3 {
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+}

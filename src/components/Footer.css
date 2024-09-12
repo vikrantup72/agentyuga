@@ -1,0 +1,16 @@
+/* Footer.css */
+.footer-container {
+	color: #fff; /* White text color */
+	text-align: center; /* Center text */
+	padding: 20px 40px; /* Add padding */
+	bottom: 0;
+	width: auto; /* Full width */
+	border-top: 1px solid rgb(60, 61, 62);
+	margin-top: 20px;
+}
+
+.footer-text {
+	margin: 0; /* Remove default margin */
+	font-size: 14px; /* Adjust font size */
+	text-align: left;
+}

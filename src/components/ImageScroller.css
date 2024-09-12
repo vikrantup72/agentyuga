@@ -1,0 +1,23 @@
+/* ImageScroller.css */
+
+.scroll-container {
+	display: flex;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 80%;
+	position: relative;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.scroll-container::-webkit-scrollbar {
+	display: none; /* Hide scrollbar */
+}
+
+.scroll-image {
+	height: 100%;
+	width: 100px; /* Adjust as needed */
+	object-fit: cover;
+	margin-right: 30px; /* Space between images */
+	border-radius: 12px;
+}

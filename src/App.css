@@ -1,0 +1,86 @@
+/* General App Styling */
+.App {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: #282c34;
+}
+
+.navbar-logo-img {
+	height: 40px;
+}
+
+.navbar-menu {
+	list-style: none;
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-menu-item {
+	margin: 0 15px;
+}
+
+.navbar-menu-item a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.navbar-menu-item a:hover {
+	text-decoration: underline;
+}
+
+/* Header Section Styling */
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px;
+	background-color: #f5f5f5;
+}
+
+.header-content {
+	flex: 1;
+	text-align: left;
+}
+
+.header-content h1 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.header-content p {
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.header-btn {
+	display: inline-block;
+	padding: 10px 20px;
+	color: white;
+	background-color: #007bff;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.header-btn:hover {
+	background-color: #0056b3;
+}
+
+.header-image {
+	flex: 1;
+}
+
+.header-image-img {
+	width: 100%;
+	max-width: 400px;
+	height: auto;
+}
